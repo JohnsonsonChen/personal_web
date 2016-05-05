@@ -1,0 +1,266 @@
+.text-muted{
+  color: black;
+}
+
+img {
+	display: block;
+	margin-top: 85px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#welcome-text {
+	text-align: center;
+	margin-top: 20px;
+	margin-left: auto;
+  margin-right: auto;
+  width: 10em;
+}
+
+.cbtn:hover {
+  border-width: 2px;	
+  border-bottom-style: solid;
+}
+
+.active {
+  border-width: 2px;	
+  border-bottom-style: solid;
+  transition: all 0.2s ease-in-out;
+}
+
+#introduction {
+  text-align: center;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+	margin-bottom: 40px;
+}
+
+#contact {
+	text-align: center;
+	margin-top: 100px;
+	margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-info {
+	margin-bottom: 40px;
+	font-size: 25px;
+}
+
+canvas {
+  display: block;
+  border: 1px solid #000;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+#startgamebutton {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  padding: 10px 15px;
+  color: #FFFDFD;
+  background-color: #555;
+  font-family: Century Gothic;
+  border: 0 none;
+  cursor: pointer;
+  top: 30%;
+  left: 42%;
+}
+
+
+#howtoplaybutton {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  padding: 10px 15px;
+  color: #FFFDFD;
+  background-color: #555;
+  font-family: Century Gothic;
+  border: 0 none;
+  cursor: pointer;
+  top: 50%;
+  left: 42%;
+}
+
+#backbutton {
+  width: 100px;
+  height: 40px;
+  padding: 10px 15px;
+  color: #FFFDFD;
+  background-color: #555;
+  font-family: Century Gothic;
+  border: 0 none;
+  cursor: pointer;
+  top: 30%;
+  left: 40%;
+}
+
+#backbutton2 {
+  width: 100px;
+  height: 40px;
+  padding: 10px 15px;
+  color: #FFFDFD;
+  background-color: #555;
+  font-family: Century Gothic;
+  border: 0 none;
+  cursor: pointer;
+  top: 50%;
+  left: 40%;
+}
+
+#instructions {
+  position: absolute;
+  text-align: center;
+  top: 20%;
+  left: 45%;
+}
+
+#instructions2 {
+  position: absolute;
+  text-align: center;
+  top: 20%;
+  left: 45%;
+}
+
+#yourscore {
+  position: absolute;
+  text-align: justify;
+  top: 35%;
+  left: 44%;
+  font-family: Century Gothic;
+  font-size: 20px;
+}
+
+#playagainbutton {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  padding: 10px 15px;
+  color: #FFFDFD;
+  background-color: #555;
+  font-family: Century Gothic;
+  border: 0 none;
+  cursor: pointer;
+  top: 45%;
+  left: 42%;
+}
+
+#howtoplaybutton2 {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  padding: 10px 15px;
+  color: #FFFDFD;
+  background-color: #555;
+  font-family: Century Gothic;
+  border: 0 none;
+  cursor: pointer;
+  top: 55%;
+  left: 42%;
+}
+
+#startgamebutton:hover {
+  background-color: #808080;
+}
+
+#howtoplaybutton:hover {
+  background-color: #808080;
+}
+
+#backbutton:hover {
+  background-color: #808080;
+}
+
+#backbutton2:hover {
+  background-color: #808080;
+}
+
+#playagainbutton:hover {
+  background-color: #808080;
+}
+
+#howtoplaybutton2:hover {
+  background-color: #808080;
+}
+
+#startgamebutton:active {
+  border: none;
+  outline:none;
+}
+
+#howtoplaybutton:active {
+  border: none;
+  outline:none;
+}
+
+#backbutton:active {
+  border: none;
+  outline:none;
+}
+
+#backbutton2:active {
+  border: none;
+  outline:none;
+}
+
+#playagainbutton:active {
+  border: none;
+  outline:none;
+}
+
+#howtoplaybutton2:active {
+  border: none;
+  outline:none;
+}
+
+#posttitle {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  padding-bottom: 5px;
+  border-bottom: solid 1px #dcdcdc;
+}
+
+.title {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.title:hover {
+  color: #0059b2;
+}
+
+.date {
+  margin-left: 80%;
+  font-size: 15px;
+  text-align: left;
+  display: inline-block;
+  font-style: italic;
+}
+
+#firstpostcontent {
+  text-align: center;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+#background-img:hover {
+  cursor: pointer;
+}
+
+.videoclass {
+  position: absolute;
+  margin-top: 100px;
+  left: 13%;
+}

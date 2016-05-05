@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>johnson</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="ext/bootstrap.css"/>
+	<link rel="stylesheet" href="styles/main.css"/>
+	<link rel="icon" href="guitar-icon.png">
+</head>
+<body>
+
+  <div id="main-container" class="container">
+  	<header>
+  	</header>
+  	<div id="nav_div">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <ul class="nav navbar-default nav-justified">
+                    <li id="nav-home-tab" class="cbtn active"><a href="#home" class="text-muted">Home</a></li>
+                    <li id="nav-blog-tab" class="cbtn"><a href="#blog" class="text-muted">Blog</a></li>
+                    <li id="nav-about-tab" class="cbtn"><a href="#aboutme" class="text-muted">About</a></li>
+                    <li id="nav-contact-tab" class="cbtn"><a href="#contact" class="text-muted">Contact</a></li>
+                    <li id="nav-comment-tab" class="cbtn"><a href="#comment" class="text-muted">Snake Game</a></li>
+                </ul>
+             </div>
+        </div>
+  	</div>
+
+    <div class="content">
+    <div id="home-div" class="col-sm-8 col-sm-offset-2">
+      <div id="video" class="hidden">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xE7n7UFzKWk" frameborder="0" allowfullscreen id="yvideo"></iframe>
+      </div>
+    	<div id="background-img">
+    		<img src="../johnson/img/guitar.png"/>
+    	</div>
+    	<div id="welcome">
+    		<p id="welcome-text">
+    		  Johnson Chan
+    		</p>
+    	</div>
+    </div>
+
+    <div id="blog-div" class="hidden">
+      <div id="blogpost" class="col-sm-8 col-sm-offset-2">
+        <div id="firstpost">
+          <div id="posttitle">
+            <div id="title1" class="title">
+             Hello
+            </div>
+            <div id="date1" class="date">
+              Jan 12, 2016
+            </div>
+          </div>
+          <div id="firstpostcontent" class="hidden">
+            <p>Welcome to my website!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="about-div" class="hidden">
+    	<div id="introduction">
+              <p>Name: Dingzhong(Johnson) Chen</p>
+              <p>Education: University of Waterloo, Waterloo ON, Jan. 2013 - Present</p>
+              <p>Virtual Skills: HTML, CSS, JavaScript, Racket, C, C++</p>
+              <p>Language: Cantonese, Mandarin, English</p>
+              <p>Interests: Guitar, Web Design/Web Develop, Internet, Basketball</p>
+              <p>Music Genres: Pop Punk, Hard Rock, Pop Rock, Blues Rock, Grunge, Folk</p>	
+    	</div>
+    </div>
+
+    <div id="contact-div" class="hidden">
+    	<div id="contact">
+    	  <div id="email" class="contact-info">
+            <a href="mailto:dzchen@uwaterloo.ca">Email</a>
+          </div>
+          <div id="facebook" class="contact-info">
+            <a target="_blank" href="https://www.facebook.com/johnson.chan.52438">Facebook</a>
+          </div>
+          <div id="twitter" class="contact-info">
+          	<a target="_blank" href="https://twitter.com/Johnson_Chandz">Twitter</a>
+          </div>
+          <div id="weibo" class="contact-info">
+          	<a target="_blank" href="https://instagram.com/thejohnsonchan/">Instagram</a>
+          </div>
+        </div>
+    </div>
+
+    <div id="comment-div" class="hidden">
+      <div id="menu">
+        <div id="startgame"><button id="startgamebutton" type="button" class="menubtn">Start</button> </div>
+        <div id="howtoplay"><button id="howtoplaybutton" type="button" class="menubtn">How to play</button></div>
+      </div>
+      <div id="instructions" class="hidden">
+        <p>Up:   &nbsp &nbsp &nbsp &#8593</p>
+        <p>Down: &nbsp &#8595</p>
+        <p>Left: &nbsp &nbsp &#8592</p>
+        <p>Right:&nbsp &nbsp &#8594</p>
+        <p>Eat fruit to get point</p>
+        <button id="backbutton" type="button" class="menubtn">Back</button>
+      </div>
+      <div id="gameover" class="hidden">
+        <div id="playagain"><button id="playagainbutton" type="button" class="hidden">Play Again</button></div>
+        <div id="howtoplay2"><button id="howtoplaybutton2" type="button" class="hidden">How to play</button></div>
+      </div>
+      <div id="yourscore" class="hidden"><p id="yourscoretext" class="hidden"></p></div>
+      <div id="instructions2" class="hidden">
+        <p>Up:   &nbsp &nbsp &nbsp &#8593</p>
+        <p>Down: &nbsp &#8595</p>
+        <p>Left: &nbsp &nbsp &#8592</p>
+        <p>Right:&nbsp &nbsp &#8594</p>
+        <p>Eat fruit to get point</p>
+        <button id="backbutton2" type="button" class="menubtn">Back</button>
+      </div>
+      <canvas id="canvas" width="745" height="590" class="hidden"></canvas>
+    </div>
+
+    </div>
+
+
+  </div>
+  
+    <script src="ext/jquery/dist/jquery.js"></script>
+    <script src="ext/underscore.js"></script>
+    <script src="script/model.js"></script>
+    <script src="script/view.js"></script>
+    <script src="script/main.js"></script>
+
+</body>
+</html>
